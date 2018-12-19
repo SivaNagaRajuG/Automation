@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71ab995f-4618-4178-8901-5ebf39538806" name="Default" comment="Added Framework Project along with selenium resources">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_6.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_appium_java_client_6_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_6_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Framework.iml" afterPath="$PROJECT_DIR$/Framework.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/basepages/MobileBasePage.java" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/basepages/MobileBasePage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/basetests/MobileBaseTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/basetests/MobileBaseTest.java" />
-      <change beforePath="$PROJECT_DIR$/../SELENIUM_RESOURCES/TestData/sampleData.xlsx" afterPath="$PROJECT_DIR$/../SELENIUM_RESOURCES/TestData/sampleData.xlsx" />
+      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AmazonApp_Test/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/target/ExtentReports/ExtentReportResults.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/target/classes/Log4j.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/target/classes/com/selenium/amazon/flows/KindleFlow.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/target/classes/com/selenium/amazon/pages/HomePage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/target/classes/com/selenium/amazon/pages/ShopByCategoryPage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/target/test-classes/com/selenium/amazon/tests/Amazon_Test.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
