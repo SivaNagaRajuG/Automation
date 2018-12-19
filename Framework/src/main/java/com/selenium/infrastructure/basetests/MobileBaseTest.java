@@ -53,6 +53,24 @@ public class MobileBaseTest {
 
     }
 
+    /**
+     * Method to shut down the driver
+     * @param driver
+     */
+    public  void driverShutDown(AndroidDriver driver)
+    {
+        try {
+            if (driver != null) {
+                driver.close();
+                driver.quit();
+            }
+        }catch(Exception e)
+        {
+
+        }
+
+    }
+
 
 
 }

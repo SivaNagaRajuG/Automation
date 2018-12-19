@@ -1,20 +1,21 @@
 package com.selenium.infrastructure.basepages;
 
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.NotFoundException;
 import org.openqa.selenium.WebDriver;
 
 public abstract class MobileBasePage {
 
-    protected final WebDriver driver;
+    protected final AndroidDriver driver;
     private Logger LOGGER = null;
 
     /**
      * Constructor for WebBasePage that does the check to make sure page has been loaded
      * @param driver
      */
-    public MobileBasePage(AppiumDriver driver)  {
+    public MobileBasePage(AndroidDriver driver)  {
 
         LOGGER = Logger.getLogger(Thread.currentThread().getStackTrace()[2].getClassName());
         this.driver = driver;
