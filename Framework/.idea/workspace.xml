@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71ab995f-4618-4178-8901-5ebf39538806" name="Default" comment="updated data handling part">
+      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../AmazonApp_Test/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/.idea/libraries/Maven__Framework_Framework_1_0_SNAPSHOT.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AmazonApp_Test/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/AmazonApp_Test.iml" afterPath="$PROJECT_DIR$/../AmazonApp_Test/AmazonApp_Test.iml" />
+      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/pom.xml" afterPath="$PROJECT_DIR$/../AmazonApp_Test/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/src/test/java/com/selenium/amazon/tests/Amazon_Test.java" afterPath="$PROJECT_DIR$/../AmazonApp_Test/src/test/java/com/selenium/amazon/tests/Amazon_Test.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../SELENIUM_RESOURCES/drivers/IEDriverServer_1.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../SELENIUM_RESOURCES/drivers/chromedriver_1.exe" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+            <state relative-caret-position="420">
+              <caret line="20" column="12" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="20" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -28,7 +36,7 @@
       <file leaf-file-name="MobileBasePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/basepages/MobileBasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="315">
               <caret line="19" column="92" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="92" />
               <folding />
             </state>
@@ -58,7 +66,7 @@
       <file leaf-file-name="DataRecord.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/datahandler/DataRecord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="84">
               <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -74,7 +82,7 @@
       <file leaf-file-name="TestListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/Listeners/TestListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
+            <state relative-caret-position="630">
               <caret line="35" column="71" lean-forward="false" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
               <folding />
             </state>
@@ -104,14 +112,14 @@
       <file leaf-file-name="AndroidHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/utils/AndroidHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="2037">
               <caret line="108" column="92" lean-forward="false" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="92" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebHelper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WebHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/utils/WebHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="567">
@@ -177,11 +185,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1911" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -310,9 +318,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -508,7 +516,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1911" y="-9" width="1938" height="1098" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -523,7 +531,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25725028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26100966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -553,6 +561,92 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/basepages/MobileBasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="19" column="92" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/basetests/MobileBaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/datahandler/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="60" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/datahandler/DataRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/Listeners/TestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="71" lean-forward="false" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/datahandler/ExcelReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/utils/AndroidHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2037">
+          <caret line="108" column="92" lean-forward="false" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/utils/WebHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2352">
+          <caret line="121" column="17" lean-forward="false" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/ExtentReports/ExtentManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -663,25 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-774">
           <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <marker date="1545214754889" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1545214754889" expanded="false" signature="153:1180" ph="..." />
-            <marker date="1545214754889" expanded="true" signature="1848:1931" ph="{...}" />
-            <marker date="1545214754889" expanded="true" signature="2011:2106" ph="{...}" />
-            <marker date="1545214754889" expanded="true" signature="2213:2327" ph="{...}" />
-            <marker date="1545214754889" expanded="true" signature="2422:2511" ph="{...}" />
-            <marker date="1545214754889" expanded="true" signature="2633:2741" ph="{...}" />
-            <marker date="1545214754889" expanded="true" signature="2832:2921" ph="{...}" />
-            <marker date="1545214754889" expanded="true" signature="3039:3147" ph="{...}" />
-            <marker date="1545214754889" expanded="true" signature="3235:3334" ph="{...}" />
-            <marker date="1545214754889" expanded="true" signature="3395:3475" ph="{...}" />
-            <marker date="1545214754889" expanded="true" signature="3537:3655" ph="{...}" />
-            <marker date="1545214754889" expanded="true" signature="3693:3801" ph="{...}" />
-            <marker date="1545214754889" expanded="true" signature="3844:3957" ph="{...}" />
-            <marker date="1545214754889" expanded="true" signature="4006:4182" ph="{...}" />
-            <marker date="1545214754889" expanded="true" signature="4226:4414" ph="{...}" />
-            <marker date="1545214754889" expanded="true" signature="4480:4634" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,14 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -756,7 +823,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/Listeners/TestListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
+        <state relative-caret-position="630">
           <caret line="35" column="71" lean-forward="false" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
           <folding />
         </state>
@@ -764,7 +831,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/datahandler/DataRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="84">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -794,7 +861,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/basepages/MobileBasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="315">
           <caret line="19" column="92" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="92" />
           <folding />
         </state>
@@ -802,7 +869,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/utils/AndroidHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="2037">
           <caret line="108" column="92" lean-forward="false" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="92" />
           <folding />
         </state>
@@ -812,6 +879,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="121" column="17" lean-forward="false" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="12" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="20" selection-end-column="12" />
           <folding />
         </state>
       </provider>

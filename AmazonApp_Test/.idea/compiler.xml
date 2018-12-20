@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AmazonApp_Test" target="1.5" />
+      <module name="AmazonApp_Test" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

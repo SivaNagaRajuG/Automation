@@ -22,9 +22,9 @@ public class Amazon_Test extends MobileBaseTest {
     @BeforeTest
  public void setUp() throws Exception {
 
-    dataReader= new ExcelReader("../SELENIUM_RESOURCES/TestData/sampleData.xlsx");
+    dataReader= new ExcelReader("src/main/java/com/selenium/amazon/data/sampleData.xlsx");
     dataRecord=dataReader.generateDataRecord("KindleEBook");
-    System.out.println(dataRecord.get("data1"));
+
 
     driver = getAndroidDriver();
  }
