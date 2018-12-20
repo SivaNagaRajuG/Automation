@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="71ab995f-4618-4178-8901-5ebf39538806" name="Default" comment="updated data handling part">
       <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AmazonApp_Test/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/src/test/java/com/selenium/amazon/tests/Amazon_Test.java" afterPath="$PROJECT_DIR$/../AmazonApp_Test/src/test/java/com/selenium/amazon/tests/Amazon_Test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -510,7 +509,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1938" height="1098" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+
+
+    <listeners>
+        <listener class-name="com.selenium.infrastructure.Listeners.TestListener"></listener>
+    </listeners>
+    <test name="Amnazon_Test" >
+        <classes>
+            <class name="com.selenium.amazon.tests.Amazon_Test" />
+        </classes>
+    </test>
+
+</suite>
