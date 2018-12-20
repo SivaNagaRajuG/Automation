@@ -13,7 +13,6 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 
-@Listeners(com.selenium.infrastructure.Listeners.TestListener.class)
 public class Amazon_Test extends MobileBaseTest {
 
     AndroidDriver driver;
