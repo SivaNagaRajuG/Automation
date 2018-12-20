@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71ab995f-4618-4178-8901-5ebf39538806" name="Default" comment="updated data handling part">
-      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../AmazonApp_Test/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/.idea/libraries/Maven__Framework_Framework_1_0_SNAPSHOT.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AmazonApp_Test/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/AmazonApp_Test.iml" afterPath="$PROJECT_DIR$/../AmazonApp_Test/AmazonApp_Test.iml" />
-      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/pom.xml" afterPath="$PROJECT_DIR$/../AmazonApp_Test/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/src/test/java/com/selenium/amazon/tests/Amazon_Test.java" afterPath="$PROJECT_DIR$/../AmazonApp_Test/src/test/java/com/selenium/amazon/tests/Amazon_Test.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../SELENIUM_RESOURCES/drivers/IEDriverServer_1.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SELENIUM_RESOURCES/drivers/chromedriver_1.exe" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />

@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f0aff8b-7c6c-4704-a855-cd70b1e6ed1c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__Framework_Framework_1_0_SNAPSHOT.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/AmazonApp_Test.iml" afterPath="$PROJECT_DIR$/AmazonApp_Test.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/amazon/tests/Amazon_Test.java" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/amazon/tests/Amazon_Test.java" />
       <change beforePath="$PROJECT_DIR$/../Framework/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Framework/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../SELENIUM_RESOURCES/drivers/IEDriverServer_1.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../SELENIUM_RESOURCES/drivers/chromedriver_1.exe" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,8 +29,8 @@
       <file leaf-file-name="ShopByCategoryPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/amazon/pages/ShopByCategoryPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+            <state relative-caret-position="588">
+              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -216,6 +209,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmazonApp_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmazonApp_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmazonApp_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmazonApp_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmazonApp_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmazonApp_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="basepages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AmazonApp_Test" type="b2602c69:ProjectViewProjectNode" />
@@ -489,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545305710371</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="merged framework and resources to amazonapp test">
+      <created>1545338013934</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545338013934</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -561,7 +588,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding tesng xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding tesng xml" />
+    <MESSAGE value="merged framework and resources to amazonapp test" />
+    <option name="LAST_COMMIT_MESSAGE" value="merged framework and resources to amazonapp test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -972,8 +1000,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/amazon/pages/ShopByCategoryPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        <state relative-caret-position="588">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding />
         </state>
       </provider>
