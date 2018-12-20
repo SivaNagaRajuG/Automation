@@ -18,7 +18,8 @@ public class AndroidHelper {
 
     private static Logger LOGGER = null;
 
-    /**
+
+      /**
      * Method to take the screenshots
      * @param driver
      */
@@ -89,6 +90,8 @@ public class AndroidHelper {
      */
     public static WebElement waitForElement(AndroidDriver driver,final ExpectedCondition<WebElement> elementExpectedCondition, int timeOut)
     {
+
+        LOGGER = Logger.getLogger(Thread.currentThread().getStackTrace()[2].getClassName());
         if(driver == null){
             throw new IllegalArgumentException("WebDriver cannot be null");
         }
@@ -102,6 +105,8 @@ public class AndroidHelper {
      * @throws Exception
      */
     public  static void click(AndroidDriver driver,By locator){
+
+        LOGGER = Logger.getLogger(Thread.currentThread().getStackTrace()[2].getClassName());
         WebElement element = waitForElementToBeClickable(driver,locator,30);
 
         try {

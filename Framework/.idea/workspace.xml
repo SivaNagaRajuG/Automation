@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="71ab995f-4618-4178-8901-5ebf39538806" name="Default" comment="updated data handling part">
       <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AmazonApp_Test/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/src/main/java/com/selenium/amazon/flows/KindleFlow.java" afterPath="$PROJECT_DIR$/../AmazonApp_Test/src/main/java/com/selenium/amazon/flows/KindleFlow.java" />
+      <change beforePath="$PROJECT_DIR$/../AmazonApp_Test/src/main/java/com/selenium/amazon/pages/HomePage.java" afterPath="$PROJECT_DIR$/../AmazonApp_Test/src/main/java/com/selenium/amazon/pages/HomePage.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/utils/AndroidHelper.java" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/utils/AndroidHelper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/utils/WebHelper.java" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/utils/WebHelper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -102,21 +105,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidHelper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AndroidHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/utils/AndroidHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1562">
-              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state relative-caret-position="297">
+              <caret line="108" column="92" lean-forward="false" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="92" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebBaseTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/basetests/WebBaseTest.java">
+      <file leaf-file-name="WebHelper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/utils/WebHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2814">
-              <caret line="143" column="5" lean-forward="false" selection-start-line="127" selection-start-column="4" selection-end-line="143" selection-end-column="5" />
+            <state relative-caret-position="378">
+              <caret line="112" column="24" lean-forward="false" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -146,7 +149,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/utils/AutomationConfigurator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/ExtentReports/ExtentManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/utils/Helper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/utils/WebHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/basepages/WebBasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/pages/samplePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/tests.java" />
@@ -159,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/datahandler/DataReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/datahandler/ExcelReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/utils/AndroidHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/utils/WebHelper.java" />
       </list>
     </option>
   </component>
@@ -301,43 +304,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="basepages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="basetests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="datahandler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
               <item name="ExtentReports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="Listeners" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Framework" type="b2602c69:ProjectViewProjectNode" />
@@ -564,7 +531,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1938" height="1098" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -573,13 +539,13 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19871107" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25725028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25725028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -748,16 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/utils/WebHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/basepages/WebBasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -868,8 +824,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/utils/AndroidHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1562">
-          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="297">
+          <caret line="108" column="92" lean-forward="false" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/infrastructure/utils/WebHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="112" column="24" lean-forward="false" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
           <folding />
         </state>
       </provider>

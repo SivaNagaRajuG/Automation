@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
 
 public class HomePage extends MobileBasePage {
 
-    private static final By MENU = By.xpath("//*[@text='Show Navigation Menu']");
+    private static final By MENU = By.id("action_bar_burger_icon");
     private static final By SHOPBYCATEGORY = By.xpath("//*[@text='Shop by Category']");
     private static Logger LOGGER = Logger.getLogger(HomePage.class);
 
