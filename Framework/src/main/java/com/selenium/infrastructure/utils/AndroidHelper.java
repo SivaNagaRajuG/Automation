@@ -3,6 +3,7 @@ package com.selenium.infrastructure.utils;
 import com.relevantcodes.extentreports.ExtentTest;
 import io.appium.java_client.android.AndroidDriver;
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -14,6 +15,8 @@ import java.util.NoSuchElementException;
 
 public class AndroidHelper {
 
+
+    private static Logger LOGGER = null;
 
     /**
      * Method to take the screenshots
@@ -91,6 +94,34 @@ public class AndroidHelper {
         }
         WebDriverWait wait=new WebDriverWait(driver,timeOut);
         return wait.until(ExpectedConditions.refreshed(elementExpectedCondition));
+    }
+
+    /**
+     * Method to click on Link or button or check box or radio button
+     * @param locator
+     * @throws Exception
+     */
+    public  static void click(AndroidDriver driver,By locator){
+        WebElement element = waitForElementToBeClickable(driver,locator,30);
+
+        try {
+
+            try {
+                element.click();
+            }catch(StaleElementReferenceException e)
+            {
+                element = waitForElementToBeClickable(driver,locator,30);
+                element.click();
+            }
+            LOGGER.info("Step : "+Thread.currentThread().getStackTrace()[2].getMethodName()+": Pass");
+        }catch(Exception e)
+        {
+            LOGGER.error("Step : "+Thread.currentThread().getStackTrace()[2].getMethodName()+": Fail");
+            throw new NotFoundException("Exception "+ e +" thrown while clicking  on object using locator "+locator);
+
+
+
+        }
     }
 
 

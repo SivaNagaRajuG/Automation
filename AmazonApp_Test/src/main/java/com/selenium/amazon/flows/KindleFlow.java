@@ -3,6 +3,7 @@ package com.selenium.amazon.flows;
 import com.selenium.amazon.pages.HomePage;
 import com.selenium.amazon.pages.ShopByCategoryPage;
 import com.selenium.infrastructure.datahandler.DataReader;
+import com.selenium.infrastructure.datahandler.DataRecord;
 import com.selenium.infrastructure.datahandler.ExcelReader;
 import com.selenium.infrastructure.utils.AndroidHelper;
 import io.appium.java_client.android.AndroidDriver;
@@ -10,15 +11,15 @@ import io.appium.java_client.android.AndroidDriver;
 public class KindleFlow {
 
     private AndroidDriver driver;
-    private DataReader dataReader;
+    private DataRecord dataRecord;
 
     private String value1=null;
     private String value2=null;
 
-    public KindleFlow(AndroidDriver driver, DataReader dataReader)
+    public KindleFlow(AndroidDriver driver, DataRecord dataRecord)
     {
         this.driver = driver;
-        this.dataReader = dataReader;
+        this.dataRecord = dataRecord;
     }
 
     /**
@@ -27,6 +28,7 @@ public class KindleFlow {
      */
     public boolean verifyKindleEBookLink()
     {
+        getData();
         try {
             HomePage homePage = new HomePage(driver);
             homePage.clickOnMenu();
@@ -45,7 +47,7 @@ public class KindleFlow {
 
     public void getData()
     {
-        value1=dataReader.getData("data1");
+        value1=dataRecord.get("data1");
     }
 
 

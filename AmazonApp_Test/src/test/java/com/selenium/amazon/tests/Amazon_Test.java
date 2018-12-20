@@ -3,6 +3,7 @@ package com.selenium.amazon.tests;
 import com.selenium.amazon.flows.KindleFlow;
 import com.selenium.infrastructure.basetests.MobileBaseTest;
 import com.selenium.infrastructure.datahandler.DataReader;
+import com.selenium.infrastructure.datahandler.DataRecord;
 import com.selenium.infrastructure.datahandler.ExcelReader;
 import io.appium.java_client.android.AndroidDriver;
 import org.testng.Assert;
@@ -16,15 +17,15 @@ import org.testng.annotations.Test;
 public class Amazon_Test extends MobileBaseTest {
 
     AndroidDriver driver;
+    DataRecord dataRecord;
     DataReader dataReader;
 
-
-
-@BeforeTest
+    @BeforeTest
  public void setUp() throws Exception {
 
-    dataReader= new ExcelReader("../SELENIUM_RESOURCES/TestData/sampleData.xlsx","KindleEBook");
-    dataReader.generateDataRecord();
+    dataReader= new ExcelReader("../SELENIUM_RESOURCES/TestData/sampleData.xlsx");
+    dataRecord=dataReader.generateDataRecord("KindleEBook");
+    System.out.println(dataRecord.get("data1"));
 
     driver = getAndroidDriver();
  }
@@ -32,7 +33,7 @@ public class Amazon_Test extends MobileBaseTest {
  @Test
     public void kindleEBookTest()
  {
-     KindleFlow kindleFlow=new KindleFlow(driver,dataReader);
+     KindleFlow kindleFlow=new KindleFlow(driver,dataRecord);
      Assert.assertTrue(kindleFlow.verifyKindleEBookLink(),"Kindle Ebook link is not dislyed");
  }
 

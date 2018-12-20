@@ -21,15 +21,14 @@ public class HomePage extends MobileBasePage {
      * Method to click on Menu
      */
     public void clickOnMenu(){
-        driver.findElement(MENU).click();
+        AndroidHelper.click(driver,MENU);
     }
 
     /**
      * Method to click on shop by category
      */
     public void clickOnShopByCategory(){
-        AndroidHelper.waitForElementToBeClickable(driver,SHOPBYCATEGORY,30);
-        driver.findElement(SHOPBYCATEGORY).click();
+        AndroidHelper.click(driver,SHOPBYCATEGORY);
     }
 
     /**

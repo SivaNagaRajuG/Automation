@@ -21,7 +21,7 @@ public class ShopByCategoryPage extends MobileBasePage {
      */
     public void clickOnKindleEReadersLink()
     {
-        driver.findElement(KINDLEEREADERSLINK).click();
+      AndroidHelper.click(driver,KINDLEEREADERSLINK);
     }
 
     /**

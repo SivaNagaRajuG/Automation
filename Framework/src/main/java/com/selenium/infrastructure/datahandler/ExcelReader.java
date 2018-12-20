@@ -18,25 +18,22 @@ import java.util.Map;
 public class ExcelReader implements DataReader {
 
     private String dataSource;
-    private String scenarioName;
 
 
     /**
      * To get the data source and scenario name
      * @param dataSource
-     * @param scenarioName
      */
-    public ExcelReader(String dataSource, String scenarioName)
+    public ExcelReader(String dataSource)
     {
         this.dataSource = dataSource;
-        this.scenarioName = scenarioName;
 
     }
 
     /**
      * Method to create the data record in hash map
      */
-    public DataRecord generateDataRecord() throws Exception {
+    public DataRecord generateDataRecord(String scenarioName) throws Exception {
 
         FileInputStream fileInputStream = null;
         XSSFSheet ExcelWSheet;
@@ -48,7 +45,7 @@ public class ExcelReader implements DataReader {
         DataFormatter dataFormatter = new DataFormatter();
         Row headerRow = ExcelWSheet.getRow(0);
 
-        int currentRow = getRowNumberFromScenarioName(ExcelWSheet);
+        int currentRow = getRowNumberFromScenarioName(ExcelWSheet,scenarioName);
 
         if(currentRow != 0) {
             Row row = ExcelWSheet.getRow(currentRow);
@@ -75,7 +72,7 @@ public class ExcelReader implements DataReader {
      * @param ExcelWSheet
      * @return
      */
-    private int getRowNumberFromScenarioName(XSSFSheet ExcelWSheet) {
+    private int getRowNumberFromScenarioName(XSSFSheet ExcelWSheet, String scenarioName) {
         Iterator<Row> rowIterator = ExcelWSheet.rowIterator();
 
         while (rowIterator.hasNext())
