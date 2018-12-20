@@ -1,7 +1,11 @@
 package com.selenium.amazon.flows;
 
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 import com.selenium.amazon.pages.HomePage;
 import com.selenium.amazon.pages.ShopByCategoryPage;
+import com.selenium.infrastructure.ExtentReports.ExtentManager;
+import com.selenium.infrastructure.ExtentReports.ExtentTestManager;
 import com.selenium.infrastructure.datahandler.DataReader;
 import com.selenium.infrastructure.datahandler.DataRecord;
 import com.selenium.infrastructure.datahandler.ExcelReader;
@@ -33,13 +37,17 @@ public class KindleFlow {
             HomePage homePage = new HomePage(driver);
             homePage.clickOnMenu();
             homePage.clickOnShopByCategory();
+            ExtentTestManager.getTest().log(LogStatus.PASS,"Home Page Actions");
 
             ShopByCategoryPage shopByCategoryPage = new ShopByCategoryPage(driver);
             shopByCategoryPage.clickOnKindleEReadersLink();
+            ExtentTestManager.getTest().log(LogStatus.PASS,"Shop Category Page Actions");
+
             return shopByCategoryPage.isKindleEBookDisplayed();
         }catch(Exception e)
         {
             AndroidHelper.takeScreenshot(driver);
+            ExtentTestManager.getTest().log(LogStatus.FAIL,"Kindle Flow");
             return false;
         }
 

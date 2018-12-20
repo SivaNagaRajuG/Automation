@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f0aff8b-7c6c-4704-a855-cd70b1e6ed1c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/amazon/flows/KindleFlow.java" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/amazon/flows/KindleFlow.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/amazon/pages/HomePage.java" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/amazon/pages/HomePage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/amazon/pages/ShopByCategoryPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/selenium/amazon/pages/ShopByCategoryPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/amazon/tests/Amazon_Test.java" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/amazon/tests/Amazon_Test.java" />
       <change beforePath="$PROJECT_DIR$/../Framework/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Framework/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../Framework/src/main/java/com/selenium/infrastructure/datahandler/DataReader.java" afterPath="$PROJECT_DIR$/../Framework/src/main/java/com/selenium/infrastructure/datahandler/DataReader.java" />
-      <change beforePath="$PROJECT_DIR$/../Framework/src/main/java/com/selenium/infrastructure/datahandler/ExcelReader.java" afterPath="$PROJECT_DIR$/../Framework/src/main/java/com/selenium/infrastructure/datahandler/ExcelReader.java" />
-      <change beforePath="$PROJECT_DIR$/../Framework/src/main/java/com/selenium/infrastructure/utils/AndroidHelper.java" afterPath="$PROJECT_DIR$/../Framework/src/main/java/com/selenium/infrastructure/utils/AndroidHelper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,11 +74,11 @@
       <file leaf-file-name="KindleFlow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/amazon/flows/KindleFlow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="753">
-              <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="417">
+              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
               <folding>
-                <element signature="e#1411#1412#0" expanded="true" />
-                <element signature="e#1457#1458#0" expanded="true" />
+                <element signature="e#1891#1892#0" expanded="true" />
+                <element signature="e#1937#1938#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -252,10 +245,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/AutomationConfigurator.Properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/selenium/amazon/flows/KindleFlow.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/amazon/tests/Amazon_Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/amazon/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/selenium/amazon/pages/ShopByCategoryPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/selenium/amazon/flows/KindleFlow.java" />
       </list>
     </option>
   </component>
@@ -640,6 +633,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3831" y="-9" width="1938" height="1098" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -649,8 +643,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1558,17 +1552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/amazon/flows/KindleFlow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <element signature="e#1411#1412#0" expanded="true" />
-            <element signature="e#1457#1458#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/amazon/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -1607,6 +1590,17 @@
             <marker date="1545297831753" expanded="true" signature="2183:2491" ph="{...}" />
             <marker date="1545297831753" expanded="true" signature="2628:2942" ph="{...}" />
             <marker date="1545297831753" expanded="true" signature="3007:3728" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/selenium/amazon/flows/KindleFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="e#1891#1892#0" expanded="true" />
+            <element signature="e#1937#1938#0" expanded="true" />
           </folding>
         </state>
       </provider>
