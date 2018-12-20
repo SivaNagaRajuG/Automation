@@ -19,7 +19,7 @@ public class ExcelReader implements DataReader {
 
     private String dataSource;
     private String scenarioName;
-    private Map<String , String> data = new HashMap<String , String>();
+
 
     /**
      * To get the data source and scenario name
@@ -36,10 +36,12 @@ public class ExcelReader implements DataReader {
     /**
      * Method to create the data record in hash map
      */
-    public void generateDataRecord() throws Exception {
+    public DataRecord generateDataRecord() throws Exception {
 
         FileInputStream fileInputStream = null;
         XSSFSheet ExcelWSheet;
+
+        DataRecord data =new DataRecord();
 
         ExcelWSheet = getExcelSheetFromFile();
 
@@ -57,7 +59,7 @@ public class ExcelReader implements DataReader {
                 int cellNr = cell.getColumnIndex();
                 String dataKey = headerRow.getCell(cell.getColumnIndex()).getRichStringCellValue().getString();
                 if (dataKey != null) {
-                    data.put(dataKey, getCellDataAsString(cell));
+                    data.set(dataKey, getCellDataAsString(cell));
 
                 }
 
@@ -65,6 +67,7 @@ public class ExcelReader implements DataReader {
         }else{
             throw new Exception("The provided scenario name is not present in excel sheet");
         }
+        return data;
     }
 
     /**
@@ -135,14 +138,6 @@ public class ExcelReader implements DataReader {
         return formatter.formatCellValue(cell);
     }
 
-    /**
-     * Method to get the required data
-     * @param name
-     * @return
-     */
-    public String getData(String name) {
-        return data.get(name);
-    }
 
 
 
